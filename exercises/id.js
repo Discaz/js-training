@@ -7,6 +7,7 @@
  */
 
 // Your code :
+const id = input => input
 
 //* Begin of tests
 const assert = require('assert')

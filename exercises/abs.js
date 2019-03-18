@@ -9,7 +9,14 @@
  * @notions Functions, Ternary
  */
 
-// Your code :
+// Your code : 
+const abs = nb => {
+    if (nb >= 0){
+        nb = nb} else {nb = nb * -1}
+    return (abs)
+    }
+
+
 
 //* Begin of tests
 const assert = require('assert')

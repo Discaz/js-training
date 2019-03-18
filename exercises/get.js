@@ -15,6 +15,8 @@ const sourceObject = {
   log: console.log,
 }
 
+const get = key => sourceObject[key]
+
 // Your code :
 
 //* Begin of tests

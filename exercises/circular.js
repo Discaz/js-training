@@ -8,6 +8,11 @@
  */
 
 // Your code :
+console.log(circular{
+    circular: 'circular'
+}
+
+
 
 //* Begin of tests
 const assert = require('assert')

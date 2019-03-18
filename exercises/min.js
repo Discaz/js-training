@@ -11,6 +11,8 @@
 
 // Your code :
 
+const min = (first, second) => first < second ? first : second
+
 //* Begin of tests
 const assert = require('assert')
 
