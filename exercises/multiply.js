@@ -8,10 +8,47 @@
  * @notions Primitive and Operators, Functions, While
  */
 
+
+
 // Your code :
-const multiply = (A, B) => {
-    const result = eval(A + String.fromCharCode(42) + B)
-    return result === -0 ? 0 : result
+const multiply = (numb1, numb2) =>{
+    if (numb1 === 0 || numb2 ===0) {
+        return 0
+    } else if (numb1 < 0 && numb2 > 0) {
+        numb1 = -numb1
+        somme = 0
+        while ( i <= numb2) {
+            somme = somme + numb1
+        }
+        somme = -somme
+        return somme
+    } else if (numb1 > 0 && numb2 < 0) {
+        numb2 = -numb2
+        somme = 0
+        while ( i <= numb2) {
+            somme = somme + numb1
+        }
+        somme = -somme
+        return somme
+    } else if (numb1 > 0 && numb2 < 0) {
+        numb2 = -numb2
+        numb1 = -numb1
+        somme = 0
+        while ( i <= numb2) {
+            somme = somme + numb1
+        }
+        
+        return somme
+    } else {
+        somme = 0
+        while ( i <= numb2) {
+            somme = somme + numb1
+        }
+        
+        return somme
+    }
+
+
 }
 
 
