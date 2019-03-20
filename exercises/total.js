@@ -5,6 +5,11 @@
  * and return the total
  *
  */
+const reducer = (accumulator, currentValues) => accumulator + currentValues
+const total = (array) => {
+    return array.reduce(reducer)
+}
+
 
 
 //* Begin of tests

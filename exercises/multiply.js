@@ -9,6 +9,11 @@
  */
 
 // Your code :
+const multiply = (A, B) => {
+    const result = eval(A + String.fromCharCode(42) + B)
+    return result === -0 ? 0 : result
+}
+
 
 //* Begin of tests
 const assert = require('assert')

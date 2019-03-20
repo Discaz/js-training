@@ -10,11 +10,10 @@
  */
 
 // Your code : 
-const abs = nb => {
+const abs = (nb) => {
     if (nb >= 0){
-        nb = nb} else {nb = nb * -1}
-    return (abs)
-    }
+        return nb} else {return nb * -1}
+     }
 
 
 
