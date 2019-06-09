@@ -11,45 +11,20 @@
 
 
 // Your code :
-const multiply = (numb1, numb2) =>{
-    if (numb1 === 0 || numb2 ===0) {
-        return 0
-    } else if (numb1 < 0 && numb2 > 0) {
-        numb1 = -numb1
-        somme = 0
-        while ( i <= numb2) {
-            somme = somme + numb1
-        }
-        somme = -somme
-        return somme
-    } else if (numb1 > 0 && numb2 < 0) {
-        numb2 = -numb2
-        somme = 0
-        while ( i <= numb2) {
-            somme = somme + numb1
-        }
-        somme = -somme
-        return somme
-    } else if (numb1 > 0 && numb2 < 0) {
-        numb2 = -numb2
-        numb1 = -numb1
-        somme = 0
-        while ( i <= numb2) {
-            somme = somme + numb1
-        }
-        
-        return somme
-    } else {
-        somme = 0
-        while ( i <= numb2) {
-            somme = somme + numb1
-        }
-        
-        return somme
+const multiply = (a, b) => {
+    if (a < 0){
+    a = -a
+    b = -b
+  }
+    let total = 0
+    for (let i = 1; i <= a; i++){
+    total = total + b
+    }
+    return total
     }
 
 
-}
+
 
 
 //* Begin of tests
