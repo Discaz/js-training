@@ -8,9 +8,13 @@
  */
 
 // Your code :
-console.log(circular{
-    circular: 'circular'
-}
+
+
+let circular = { circular: '' }
+
+circular.circular = circular
+
+
 
 
 

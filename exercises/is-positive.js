@@ -16,6 +16,7 @@ const isPositive = (number) => {
         return true ; 
     }
 }
+
 //* Begin of tests
 const assert = require('assert')
 

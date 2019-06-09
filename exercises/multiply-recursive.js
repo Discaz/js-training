@@ -11,6 +11,34 @@
 
 // Your code :
 
+const multiply = (num1,num2) => {
+    if (num2 === 0)
+      return 0
+    if (num1 === 0)
+      return 0
+    if (num2 > 0)
+      return (num1 + multiply(num1, num2 - 1))
+    if (num2 < 0)
+      return (-num1 - multiply(num1, -num2 - 1))
+   }
+
+// other solution : 
+
+// function multiply(a, b) {
+//     if (!a || !b) {
+//         return 0;
+//     }
+//     if (b - 2 < -1) {
+//         return -a + multiply(a, ++b);
+//     }
+//     if (b > 1) {    
+//         return a + multiply(a, --b);
+//     }
+//     return a;
+// }
+
+
+
 //* Begin of tests
 const assert = require('assert')
 

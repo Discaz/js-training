@@ -15,8 +15,6 @@ const abs = (nb) => {
         return nb} else {return nb * -1}
      }
 
-
-
 //* Begin of tests
 const assert = require('assert')
 
